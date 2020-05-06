@@ -1,1 +1,23 @@
+:root {
+  --bd-rd: 0px;
+}
 
+body {
+  background: rgb(112,112,112);
+  background: radial-gradient(circle, rgba(112,112,112,1) 0%, rgba(196,195,185,1) 0%, rgba(112,112,112,1) 100%);
+  text-align: center;
+  margin-top: 200px;
+}
+
+input {
+  width: 40px;
+}
+
+textarea {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  border-radius: calc(var(--bd-rd)*1px);
+  resize: none;
+  line-height: 15em;
+}
